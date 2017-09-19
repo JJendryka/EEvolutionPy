@@ -3,7 +3,7 @@ project(SimpleEvolution)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp NNet.h NNet.cpp Sim.cpp Sim.h Display.cpp Display.h Specimen.cpp Specimen.h World.cpp World.h Food.cpp Food.h)
+set(SOURCE_FILES main.cpp NNet.h NNet.cpp  Sim.cpp Sim.h Display.cpp Display.h Specimen.cpp Specimen.h World.cpp World.h Food.cpp Food.h  NetManager.h NetManager.cpp)
 add_executable(SimpleEvolution ${SOURCE_FILES})
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules")
